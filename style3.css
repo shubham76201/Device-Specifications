@@ -1,0 +1,116 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color:grey;
+ }
+ .wrapper {
+ padding-top: 120px;
+ }
+ .card-img-top {
+ box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+ }
+ .card-body{
+     text-align: center;
+     
+     box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+ }
+ .card-body h6 {
+ font-size: 14px;
+ text-transform: uppercase;
+ color: deeppink;
+ }
+ .card-title {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 24px;
+ 
+ }
+ 
+ .socials a {
+ width: 40px;
+ height: 40px;
+ display: inline-block;
+ border-radius: 50%;
+ margin: 0 5px;
+ }
+ .socials a i {
+ color: #fff;
+ padding: 12px 0;
+ }    
+ 
+ .socials a:nth-child(1) {
+ background: #3b5998;
+ }.socials a:nth-child(2) {
+ background: #ff0000;
+ }.socials a:nth-child(3) {
+ background: #007bb5;
+ }.socials a:nth-child(4) {
+ background: #ea4c89;
+ }
+ 
+ @media (max-width: 800px){
+     .mx-30{
+         margin-bottom: 30px;
+     }
+ }
+
+
+ /* Navigation Bar */
+#navbar{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar::before{
+  content: "";
+  background-color: black;
+  position: absolute;
+  top:0px;
+  left:0px;
+  height: 100%;
+  width:100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+  margin: 10px 34px;
+}
+
+#logo img{
+  height: 59px;
+  margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+  display: flex;
+  font-family: 'Baloo Bhai', cursive;
+  justify-content:center;
+}
+
+#navbar ul li{ 
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a{
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover{
+  color: black;
+  background-color: white;
+}
+ 
+.col-md-6 {
+  height: 20px;
+}
